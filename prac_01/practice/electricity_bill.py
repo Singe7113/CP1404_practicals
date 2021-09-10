@@ -1,0 +1,5 @@
+power_price_kwh = float(input("price per kWh in cents: "))
+daily_usage_kwh = float(input("daily use in kWh: "))
+number_of_days_per_bill = float(input("number of days in the billing period: "))
+estimated_bill = str((power_price_kwh/100)*(daily_usage_kwh*number_of_days_per_bill))
+print("Estimated bill: $"+estimated_bill)
